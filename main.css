@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #ddd;
+    user-select: none;
+}
+
+.container .row {
+    margin-top: 100px;
+}
+
+.image-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.image-slider img {
+    height: 700px;
+    width: 100%;
+}
+
+.fa-angle-left,
+.fa-angle-right {
+    font-size: 5rem;
+    color: azure;
+}
+
+.fa-angle-left {
+    position: relative;
+    left: 40px;
+}
+
+.fa-angle-right {
+    position: relative;
+    right: 40px;
+}
+
+b {
+    color: yellow;
+}
